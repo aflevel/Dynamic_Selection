@@ -1,10 +1,11 @@
-#                                                Case Studies:
+# Case Studies: Dynamic of Adaptation
 
-*Scenario 1:* Consequence of K- vs r-strategy on the fate of genetic diversity under selection
- Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals)
+# Scenario 1: Consequence of K- vs r-strategy on the fate of genetic diversity under selection
+	Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals).
  What would be the best startegy to preserve genetic diversity under increasingly stringent stabilising selection?
 *Keywords: k startegy, r stargegy, genetic diversity, stabilising selection
 
+**QUESTIONS**
 Q1- Model increasingly stringent stabilising selection:
 	Which parameter(s) should be allowed to vary?
 	Which range of variation have you decided to test? (tip: you should select both stabilising selection around the initial population mean:0 and further away:20)
@@ -17,13 +18,12 @@ Q3- Which statistics of the output can be used to assess genetic diversity?
 Q4- Sensitivity analysis:
   Which other one paramter of the model would you investigate to make sure your conclusion is valid?
 
-#Scenario 2:# Effect of two major genes versus a polygenic inheritance on the response to selection
-Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
+# **Scenario 2: Effect of two major genes versus a polygenic inheritance on the response to selection
+	Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
 Which of these genetic architecture can respond the quicker to selection
 *Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
 
-**QUESTIONS
-
+**QUESTIONS**
 Q1- Model alternative genetic architecture:
 	The challenge is to compare the two genetic architectures (2 loci vs multiple loci involved) keeping the initial heritability equal in both cases and significantly different from 0 or 1.
 	How would you parameter the standard deviation of the environmental effect as a function of Loci Number? (tip: look at the parameters given above)
@@ -33,10 +33,10 @@ Q3- Which statistics of the output can be used to assess the response to selecti
 Q4- Sensitivity analysis:
 	Which other one parameter of the model would you investigate to make sure your conclusion is valid?
 
-**Scenario 3:** Effect of the different selection regimes on the genetic diversity
+# **Scenario 3: Effect of the different selection regimes on the genetic diversity
 For similar levels
 
-*QUESTIONS
+**QUESTIONS**
 Q1- Model alternative genetic architecture:
 	The challenge is to compare the three types of selection regime keeping the fraction of the population selected equal across simulation
 	How would you parameter the selection differential in each of the 3 scenarios?
