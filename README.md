@@ -18,10 +18,51 @@ Q3- Which statistics of the output can be used to assess genetic diversity?
 Q4- Sensitivity analysis:
   Which other one paramter of the model would you investigate to make sure your conclusion is valid?
 
-# **Scenario 2: Effect of two major genes versus a polygenic inheritance on the response to selection
-	Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
+# Scenario 2: Effect of two major genes versus a polygenic inheritance on the response to selection
+Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
 Which of these genetic architecture can respond the quicker to selection
 *Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
+
+	
+H2_maj=c()
+for (i in 1:100) H2_maj=c(H2_maj,Selection.Simulator(
+	GenoNum=50,          # The number of genotypes in the initial population
+	GenoRep=10,           # The number of replicate per genotype in the initial population
+	LociNum=2,            # The number of loci affecting the trait
+	LociFX="Equal Loci",   # The number of allelic states at on locus, options are "Equal Loci" OR "continuous"
+	sdGeneticFX=1 ,       # The standard deviation of each individual locus effect
+	sdEnvironmentalFX=sqrt(1),  # The standard deviation of the environmental effect
+	GenerationNum=12,     # The number of generation the model is run for
+	Fraction=F,           # Whether you want to select a fraction of the population or on absolute values for the trait
+	Sel.max=Inf,         # The maximum phenotypic value in the population (if Fraction==TRUE, it is the proportion of initial population
+	Sel.min=0,         # The minimum phenotypic value (can be greater than Sel.max to simulate disruptive selection)
+	EnvChangeRate=0,     # % of Change in the selected value (as a % of the range of the initial trait value)
+	MuRate=0,      # The mutation rate in number of mutation per locus (do not go too high, R is slow when dealing with long loops...)
+	Graph=F          # Should the function return plots TRUE or FALSE
+)[[1]][1,1])
+
+#VS
+
+H2_poly=c()
+for (i in 1:100) H2_poly=c(H2_poly,Selection.Simulator(
+	GenoNum=50,          # The number of genotypes in the initial population
+	GenoRep=10,           # The number of replicate per genotype in the initial population
+	LociNum=10,            # The number of loci affecting the trait
+	LociFX="Equal Loci",   # The number of allelic states at on locus, options are "Equal Loci" OR "continuous"
+	sdGeneticFX=1 ,       # The standard deviation of each individual locus effect
+	sdEnvironmentalFX=sqrt(5),  # The standard deviation of the environmental effect
+	GenerationNum=12,     # The number of generation the model is run for
+	Fraction=F,           # Whether you want to select a fraction of the population or on absolute values for the trait
+	Sel.max=Inf,         # The maximum phenotypic value in the population (if Fraction==TRUE, it is the proportion of initial population
+	Sel.min=0,         # The minimum phenotypic value (can be greater than Sel.max to simulate disruptive selection)
+	EnvChangeRate=0,     # % of Change in the selected value (as a % of the range of the initial trait value)
+	MuRate=0,      # The mutation rate in number of mutation per locus (do not go too high, R is slow when dealing with long loops...)
+	Graph=F          # Should the function return plots TRUE or FALSE
+)[[1]][1,1])
+
+par(mfrow=c(1,2))
+hist(H2_maj)
+hist(H2_poly)
 
 **QUESTIONS**
 Q1- Model alternative genetic architecture:
