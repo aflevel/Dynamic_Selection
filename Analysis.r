@@ -134,7 +134,7 @@ Selection.Simulator(
 
 #Scenario 2: Effect of two major genes versus a polygenic inheritance on the response to selection
 # Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
-# Which of these genetic architecture can respond the quicker to selection
+# Which of these genetic architectures can respond the quicker to selection?
 # Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
 
 H2_maj=c()
@@ -192,26 +192,11 @@ hist(H2_poly)
 #	Which other one parameter of the model would you investigate to make sure your conclusion is valid?
 
 #Scenario 3: Effect of the different selection regimes on the genetic diversity
-#For similar levels
+#For similar levels of selection in terms of which fraction of the population is selected for, the resulting level of genetic diversity might differ. We have a strong expectation that balancing/disruptive selection preserve more diversity. However, the effect of how disrupted/far appart the two fractions selected are is not clear (eg: selecting from 0-to-25% and 75-100% vs 25-75% the same as selecting 0-45% and 55%-100% vs 5-95%)
+#What is the relationship between level of disruption and increase in persiatnce of genetic diversity?
+#Keywords: balancing selection, disruptive selection, genetic diversity
 
 # Stabilising
-Selection.Simulator(
-	GenoNum=50,          # The number of genotypes in the initial population
-	GenoRep=10,           # The number of replicate per genotype in the initial population
-	LociNum=10,            # The number of loci affecting the trait
-	LociFX="Equal Loci",   # The number of allelic states at on locus, options are "Equal Loci" OR "continuous"
-	sdGeneticFX=1 ,       # The standard deviation of each individual locus effect
-	sdEnvironmentalFX=1,  # The standard deviation of the environmental effect
-	GenerationNum=12,     # The number of generation the model is run for
-	Fraction=T,           # Whether you want to select a fraction of the population or on absolute values for the trait
-	Sel.max=???,         # The maximum phenotypic value in the population (if Fraction==TRUE, it is the proportion of initial population
-	Sel.min=???,         # The minimum phenotypic value (can be greater than Sel.max to simulate disruptive selection)
-	EnvChangeRate=0,     # % of Change in the selected value (as a % of the range of the initial trait value)
-	MuRate=0,      # The mutation rate in number of mutation per locus (do not go too high, R is slow when dealing with long loops...)
-	Graph=T          # Should the function return plots TRUE or FALSE
-)
-
-# Directional
 Selection.Simulator(
 	GenoNum=50,          # The number of genotypes in the initial population
 	GenoRep=10,           # The number of replicate per genotype in the initial population
@@ -248,10 +233,10 @@ Selection.Simulator(
 #QUESTIONS
 #
 #Q1- Model alternative genetic architecture:
-#	The challenge is to compare the three types of selection regime keeping the fraction of the population selected equal across simulation
-#	How would you parameter the selection differential in each of the 3 scenarios?
+#	The challenge is to compare the three types of selection regime keeping the fraction of the population selected equal across simulation.
+#	How would you parameter the selection differential in each of the 3 scenarios so that you can test various level?
 #
-#Q2- Based on bibliographic references, which prediction can you make about the effect of the different selection regimes?
+#Q2- Based on bibliographic references, which prediction can you make about the effect of the different selection regimes and particularly the level of disruption?
 #
 #Q3- Which statistics of the output can be used to assess the level of genetic diversity in each scenario?
 #	Which statistical test have you decided to use to test the difference in outcomes?
