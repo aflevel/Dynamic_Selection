@@ -2,10 +2,10 @@
 #                                                Case Studies:
 ##########################################################################################################
 
-#Scenario 1:# Consequence of K- vs r-strategy on the fate of genetic diversity under selection
+#Scenario 1: Consequence of K- vs r-strategy on the fate of genetic diversity under selection
  Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals)
  What would be the best startegy to preserve genetic diversity under increasingly stringent stabilising selection?
-** Keywords: k startegy, r stargegy, genetic diversity, stabilising selection
+**Keywords: k startegy, r stargegy, genetic diversity, stabilising selection
 
 Q1- Model increasingly stringent stabilising selection:
 	Which parameter(s) should be allowed to vary?
@@ -22,7 +22,7 @@ Q4- Sensitivity analysis:
 #Scenario 2:# Effect of two major genes versus a polygenic inheritance on the response to selection
 Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
 Which of these genetic architecture can respond the quicker to selection
-** Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
+**Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
 
 *QUESTIONS
 Q1- Model alternative genetic architecture:
