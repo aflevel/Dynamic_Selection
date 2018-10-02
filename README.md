@@ -38,7 +38,7 @@ Q4- Sensitivity analysis:
 # Scenario 3: Effect of the different selection regimes on the genetic diversity
 For similar levels of selection in terms of which fraction of the population is selected for, the resulting level of genetic diversity might differ. We have a strong expectation that balancing/disruptive selection preserve more diversity. However, the effect of how disrupted/far appart the two fractions selected are is not clear (eg: selecting from 0-to-25% and 75-100% vs 25-75% the same as selecting 0-45% and 55%-100% vs 5-95%).
 What is the relationship between level of disruption and increase in persiatnce of genetic diversity?
-*keywords: balancing selection, disruptive selection, genetic diversity
+*Keywords: balancing selection, disruptive selection, genetic diversity
 
 
 **QUESTIONS**
