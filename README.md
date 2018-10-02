@@ -1,4 +1,4 @@
-# Case Studies: Dynamic of Adaptation
+# Case Studies: Dynamic of Selection and Adaptation to Climate Change
 
 # Scenario 1: Consequence of K- vs r-strategy on the fate of genetic diversity under selection
 Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals).
