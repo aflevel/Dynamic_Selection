@@ -23,7 +23,7 @@ Q4- Sensitivity analysis:
 
 # Scenario 2: Effect of two major genes versus a polygenic inheritance on the response to selection
 Some traits are controlled by a few genes that have a huge effect on the phenotype, called major genes, these are often involved in mendelian genetics as their effect and location in the genome are easily determined. This is the case for genes confering Huntington's disease for example. Alternatively, more subtle variation can be controlled by multiple genes called polygenic inheritance. This is the case for genes predisposing to colorectal cancer for example.
-	Which of these genetic architectures can respond the quicker to selection
+	Which of these genetic architectures can respond the quicker to selection?
 
 *Keywords: genetic architecture, major gene, polygenic inheritance, response to selection
 
