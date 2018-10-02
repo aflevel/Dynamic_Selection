@@ -1,6 +1,4 @@
-##########################################################################################################
 #                                                Case Studies:
-##########################################################################################################
 
 #Scenario 1: Consequence of K- vs r-strategy on the fate of genetic diversity under selection
  Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals)
@@ -57,8 +55,8 @@ Q4- Sensitivity analysis:
 # The Report:#
 * the assessment will be based on a written component that will include the response to the questions from the scenario that you have to reshape to fit an article format.
 * the report should include:
-* 	- An introduction stating the biological problem you are investigating (based on further research using keywords from the scenario introductory sentence) and describing the research hypothesis based on Q2
-* 	- A description of the methods you are using, first stating what are the parameters you are interested in (based on Q1) and which methods you will use to test their effect (based on Q3)
-*	- A result section where you should report your main finding using at least one original figure (not produced by the script) and one table. You can still use the figure from the output but not only!
-*	- A discussion section where you discuss the significance of the result (eg: does it match your initial prediction?) and provide support for this result using the sensitivity analysis from Q4.
-* 
+ 	- An introduction stating the biological problem you are investigating (based on further research using keywords from the scenario introductory sentence) and describing the research hypothesis based on Q2
+ 	- A description of the methods you are using, first stating what are the parameters you are interested in (based on Q1) and which methods you will use to test their effect (based on Q3)
+	- A result section where you should report your main finding using at least one original figure (not produced by the script) and one table. You can still use the figure from the output but not only!
+	- A discussion section where you discuss the significance of the result (eg: does it match your initial prediction?) and provide support for this result using the sensitivity analysis from Q4.
+ 
