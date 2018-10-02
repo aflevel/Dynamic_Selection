@@ -1,7 +1,7 @@
 # Case Studies: Dynamic of Adaptation
 
 # Scenario 1: Consequence of K- vs r-strategy on the fate of genetic diversity under selection
-	Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals).
+Some organisms favour an abundant reproduction of a few individual genotypes (r startegy like for most plants and marine wildlife) while some other favour having a lot of breeding individuals having a few offsrping they care more about (K strategy like most mammals).
  What would be the best startegy to preserve genetic diversity under increasingly stringent stabilising selection?
 *Keywords: k startegy, r stargegy, genetic diversity, stabilising selection
 
@@ -37,6 +37,8 @@ Q4- Sensitivity analysis:
 
 # Scenario 3: Effect of the different selection regimes on the genetic diversity
 For similar levels of selection in terms of which fraction of the population is selected for, the resulting level of genetic diversity might differ. We have a strong expectation that balancing/disruptive selection preserve more diversity. However, the effect of how disrupted/far appart the two fractions selected are is not clear (eg: selecting from 0-to-25% and 75-100% vs 25-75% the same as selecting 0-45% and 55%-100% vs 5-95%).
+What is the relationship between level of disruption and increase in persiatnce of genetic diversity?
+*keywords: balancing selection, disruptive selection, genetic diversity
 
 
 **QUESTIONS**
